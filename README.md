@@ -4,6 +4,9 @@
 
 A React Native bridge module for interacting with Google Fit
 
+# IMPORTANT:
+What's different in this fork: the version numbers of `gms:play-services-auth` and `gms:play-services-fitness` in the dependencies listed in `android/build.gradle` have been updated to use the latest available version. I have absolutely no idea what I'm doing, it just seems to work for me, at least for now. Use at your own discretion.
+
 ### Getting started
 
 `$ npm install react-native-google-fit --save`
